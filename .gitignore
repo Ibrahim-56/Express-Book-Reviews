@@ -1,4 +1,13 @@
-# Distribution / packaging
-node_modules
+# Dependencies and generated files
+node_modules/
+npm-debug.log*
+coverage/
+playwright-report/
+test-results/
 
-
+# Local environment and OS metadata
+.env
+.env.*
+!.env.example
+.DS_Store
+._*
